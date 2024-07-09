@@ -1,8 +1,8 @@
-import "./App.css";
+// import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
-import Products from "./components/Products/Products";
 import Layout from "./components/Layout/Layout";
+import Products from "./components/Products/Products";
 import Footer from "./components/Footer/Footer";
 
 function App() {
