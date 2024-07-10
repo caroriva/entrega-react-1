@@ -17,13 +17,15 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  flex-wrap: wrap;
+  gap: 3.5rem;
 }
 
 .product__card {
   background-color: var(--black);
   text-align: center;
   padding: 4rem;
+  width: 280px;
   border-radius: 2rem;
   border: 1px solid var(--black-olive);
 }
@@ -60,10 +62,4 @@ h2 {
 
 .more__btn a:hover {
   background-color: var(--gradient);
-}
-
-@media (max-width: 892px) {
-}
-
-@media (max-width: 576px) {
 }

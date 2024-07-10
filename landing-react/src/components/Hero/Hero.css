@@ -35,7 +35,7 @@ p {
   line-height: 1.5;
 }
 
-@media (max-width: 892px) {
+@media (max-width: 854px) {
   .hero__left img {
     display: none;
   }

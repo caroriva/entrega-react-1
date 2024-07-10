@@ -45,20 +45,20 @@ ul a:hover {
   display: none;
 }
 
-@media (max-width: 892px) {
+@media (max-width: 854px) {
   ul {
     display: none;
   }
-}
 
-.navbar__btns {
-  display: none;
-}
+  .navbar__btns {
+    display: none;
+  }
 
-.navbar__menu {
-  display: inline-block;
-  font-size: 2.3rem;
-  color: var(--gray);
+  .navbar__menu {
+    display: inline-block;
+    font-size: 2.3rem;
+    color: var(--gray);
+  }
 }
 
 @media (max-width: 576px) {
